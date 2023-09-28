@@ -46,10 +46,9 @@
   position: relative;
 }
 .product__block {
-  border: 1px solid black;
   padding: 1rem;
   background-color: var(--main-bg-color);
-  max-width: 30rem;
+  max-width: 25rem;
   margin: 0 auto;
 }
 .product__img-box {
@@ -58,11 +57,10 @@
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 1rem;
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   background-color: var(--main-bg-color);
   padding: 0.5rem;
-  border: 1px solid red;
 }
 .product__img-box .img {
   width: 100%;
@@ -113,5 +111,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: linear-gradient(to bottom, var(--second-brand-color), var(--fourth-brand-color) 60%);
+  }
+
+  .hero-products .products .sub-title,
+  .product__name,
+  .product__desc,
+  .product__price {
+    color: var(--sub-text-color);
   }
 }

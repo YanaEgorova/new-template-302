@@ -187,11 +187,14 @@ body.error-active .error__overlay {
   display: block;
   text-transform: uppercase;
   font-family: var(--main-title-font);
-  border: 0.2rem solid var(--second-brand-color);
+  border: none;
   background-color: var(--second-brand-color);
   color: var(--sub-text-color);
   transition: all 0.3s ease-in-out;
-  border-radius: 1rem;
+  border-radius: 5rem;
+  -webkit-box-shadow: 0rem 0rem 1rem 0rem rgba(74, 155, 139, 1);
+  -moz-box-shadow: 0rem 0rem 1rem 0rem rgba(74, 155, 139, 1);
+  box-shadow: 0rem 0rem 1rem 0rem rgba(74, 155, 139, 1);
 }
 
 .bold {
